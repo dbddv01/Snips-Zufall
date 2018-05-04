@@ -38,7 +38,7 @@ def action_wrapper(hermes, intentMessage, conf):
 
     Refer to the documentation for further details. 
     """ 
-    item = intentMessage.slots.item.first().value
+    item = intentMessage.slots.item_random.first().value
     if item == 'coin':
         coin_random = random.randrange(0, 1)
         if coin_random == 0:
