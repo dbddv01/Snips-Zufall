@@ -1,2 +1,2 @@
-# Snips-Zufall
-Zufalls-Skill für Snips.ai
+# Snips-aléatoire
+aleatoire-Skill pour Snips.ai
